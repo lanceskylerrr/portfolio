@@ -10,7 +10,7 @@ const sections = ["About", "Skills", "Experience", "Portfolio", "Contact"];
 const skills = [
   { category: "Design & Diagramming Tools", items: ["Figma", "Boardmix", "Lucidchart"] },
   { category: "Media & Creative Tools", items: ["Adobe Photoshop", "Adobe Premiere", "CapCut"] },
-  { category: "Programming Languages", items: ["Java", "PHP", "C#", "Javascript"] },
+  { category: "Tech Stack", items: ["Java", "PHP", "C#","CSS","React", "Javascript"] },
 ];
 
 const experiences = [
@@ -186,7 +186,7 @@ const SkillsSection = () => {
       <div className="max-w-4xl w-full">
         <div className="mb-12 sm:mb-16 text-center">
           <span className="text-sm tracking-[0.3em] text-muted-foreground uppercase">Expertise</span>
-          <h2 className="text-3xl md:text-4xl font-extralight mt-2">Tech Stack</h2>
+          <h2 className="text-3xl md:text-4xl font-extralight mt-2">Skills</h2>
           <div className="w-16 h-px bg-primary/50 mx-auto mt-6" />
         </div>
 
