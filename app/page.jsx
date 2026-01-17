@@ -42,7 +42,7 @@ const projects = [
     tags: ["Figma","Boardmix", "System Analysis", "UI/UX Design"],
   },
   {
-    title: "Centhesys: Business Management System ",
+    title: "Centhesys: Enterprise Resource Planning System ",
     description: "A finance and accounting system module designed to manage chart of accounts efficiently, ensuring organized financial records and accurate transaction classification.",
     image: "/centhesys.png",
     tags: ["Figma", "Boardmix", "UI/UX Design"],
