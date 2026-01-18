@@ -9,7 +9,7 @@ const sections = ["About", "Skills", "Experience", "Portfolio", "Contact"];
 
 const skills = [
   { category: "Design & Diagramming Tools", items: ["Figma", "Boardmix", "Lucidchart"] },
-  { category: "Media & Creative Tools", items: ["Adobe Photoshop", "Adobe Premiere", "CapCut"] },
+  { category: "Media & Creative Tools", items: ["Adobe Photoshop", "Adobe Premiere", "CapCut", "Canva"] },
   { category: "Tech Stack", items: ["Java", "PHP", "C#","CSS","React", "Javascript"] },
 ];
 
