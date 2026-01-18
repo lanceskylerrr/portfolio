@@ -18,7 +18,7 @@ const experiences = [
     role: "UI / UX Designer",
     company: "Creciendo Philippines",
     period: "2024 - 2025",
-    description: "Designed system flow diagrams and end-to-end UI/UX for finance, accounting, and web portal systems, improving workflow clarity, data accuracy, and usability across student, parent, and teacher platforms.",
+    description: "Designed system flow diagrams and end-to-end UI/UX for an ERP system covering HRIS, client and supplier portals, and finance & accounting modules, helping automate and streamline company operations. Also worked on school web portals, improving workflow clarity, data accuracy, and usability across student, parent, and teacher platforms.",
   },
   {
     role: "Web Developer",
