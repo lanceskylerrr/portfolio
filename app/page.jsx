@@ -160,18 +160,18 @@ const HeroSection = () => {
 
         <div className="text-center md:text-left space-y-4 sm:space-y-6 w-full">
           <div className="space-y-2">
-            <p className="text-xs sm:text-sm tracking-[0.3em] text-muted-foreground uppercase">Hello, Im</p>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extralight tracking-tight">
+            <p className="text-xs sm:text-sm tracking-[0.3em] text-gray-300 sm:text-muted-foreground uppercase">Hello, Im</p>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extralight tracking-tight text-white">
               Lance Skyler <span className="font-normal text-primary">Cao</span>
             </h1>
           </div>
-          <p className="text-base sm:text-lg text-muted-foreground font-light leading-relaxed max-w-md mx-auto md:mx-0 text-justify sm:text-left">
+          <p className="text-base sm:text-lg text-gray-200 sm:text-muted-foreground font-light leading-relaxed max-w-md mx-auto md:mx-0 text-justify sm:text-left">
             An entry-level IT professional with a solid understanding of technology, strong problem-solving skills, and a genuine passion for innovation. Reliable when tackling new challenges, eager to take on added responsibilities, and committed to continuous learning to support career growth and long-term professional success.
           </p>
 
           <div className="flex gap-4 justify-center md:justify-start">
             <div className="w-12 h-px bg-primary/50 self-center" />
-            <span className="text-sm text-muted-foreground tracking-wider">UI / UX Designer & Front-End Developer</span>
+            <span className="text-sm text-gray-300 sm:text-muted-foreground tracking-wider">UI / UX Designer & Front-End Developer</span>
           </div>
         </div>
       </div>
@@ -185,8 +185,8 @@ const SkillsSection = () => {
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12 sm:py-20">
       <div className="max-w-4xl w-full">
         <div className="mb-12 sm:mb-16 text-center">
-          <span className="text-sm tracking-[0.3em] text-muted-foreground uppercase">Expertise</span>
-          <h2 className="text-3xl md:text-4xl font-extralight mt-2">Skills</h2>
+          <span className="text-sm tracking-[0.3em] text-gray-300 sm:text-muted-foreground uppercase">Expertise</span>
+          <h2 className="text-3xl md:text-4xl font-extralight mt-2 text-white">Skills</h2>
           <div className="w-16 h-px bg-primary/50 mx-auto mt-6" />
         </div>
 
@@ -229,7 +229,7 @@ const SkillsSection = () => {
                         }}
                       />
                       <div className="w-3 h-3 rounded-full bg-primary border border-primary/50 group-hover:scale-125 group-hover:shadow-[0_0_12px_rgba(255,255,255,0.5)] transition-all duration-100 relative z-10" />
-                      <span className="font-light tracking-wide group-hover:text-primary group-hover:font-normal transition-all duration-100 relative z-10">
+                      <span className="font-light tracking-wide text-white sm:text-foreground group-hover:text-primary group-hover:font-normal transition-all duration-100 relative z-10">
                         {skill}
                       </span>
                     </div>
@@ -250,8 +250,8 @@ const ExperienceSection = () => {
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12 sm:py-20">
       <div className="max-w-3xl w-full">
         <div className="mb-12 sm:mb-16 text-center">
-          <span className="text-sm tracking-[0.3em] text-muted-foreground uppercase">Journey</span>
-          <h2 className="text-3xl md:text-4xl font-extralight mt-2">Work Experience</h2>
+          <span className="text-sm tracking-[0.3em] text-gray-300 sm:text-muted-foreground uppercase">Journey</span>
+          <h2 className="text-3xl md:text-4xl font-extralight mt-2 text-white">Work Experience</h2>
           <div className="w-16 h-px bg-primary/50 mx-auto mt-6" />
         </div>
 
@@ -284,10 +284,10 @@ const ExperienceSection = () => {
                 <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-background border-2 border-primary md:-translate-x-1/2 z-10 transition-all duration-300 group-hover:opacity-0" />
 
                 <div className={`w-full md:w-1/2 pl-12 md:pl-0 transition-all duration-300 group-hover:scale-105 ${Home % 2 === 0 ? "md:pl-12" : "md:pr-12 md:text-right"}`}>
-                  <span className="text-xs sm:text-sm text-primary/70 tracking-wider group-hover:text-primary transition-colors duration-300">{exp.period}</span>
-                  <h3 className="text-lg sm:text-xl font-light mt-2 group-hover:text-primary transition-colors duration-300">{exp.role}</h3>
-                  <p className="text-sm sm:text-base text-muted-foreground font-light mt-1 group-hover:text-muted-foreground/90 transition-colors duration-300">{exp.company}</p>
-                  <p className="text-xs sm:text-sm text-muted-foreground/80 font-light mt-4 leading-relaxed text-justify sm:text-left md:text-justify group-hover:text-muted-foreground/90 transition-colors duration-300">
+                  <span className="text-xs sm:text-sm text-primary/80 sm:text-primary/70 tracking-wider group-hover:text-primary transition-colors duration-300">{exp.period}</span>
+                  <h3 className="text-lg sm:text-xl font-light mt-2 text-white group-hover:text-primary transition-colors duration-300">{exp.role}</h3>
+                  <p className="text-sm sm:text-base text-gray-200 sm:text-muted-foreground font-light mt-1 group-hover:text-muted-foreground/90 transition-colors duration-300">{exp.company}</p>
+                  <p className="text-xs sm:text-sm text-gray-300 sm:text-muted-foreground/80 font-light mt-4 leading-relaxed text-justify sm:text-left md:text-justify group-hover:text-muted-foreground/90 transition-colors duration-300">
                     {exp.description}
                   </p>
                 </div>
@@ -308,8 +308,8 @@ const PortfolioSection = () => {
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12 sm:py-20">
       <div className="max-w-5xl w-full">
         <div className="mb-12 sm:mb-16 text-center">
-          <span className="text-sm tracking-[0.3em] text-muted-foreground uppercase">Projects</span>
-          <h2 className="text-3xl md:text-4xl font-extralight mt-2">Featured Projects</h2>
+          <span className="text-sm tracking-[0.3em] text-gray-300 sm:text-muted-foreground uppercase">Projects</span>
+          <h2 className="text-3xl md:text-4xl font-extralight mt-2 text-white">Featured Projects</h2>
           <div className="w-16 h-px bg-primary/50 mx-auto mt-6" />
         </div>
 
@@ -356,10 +356,10 @@ const PortfolioSection = () => {
               </div>
 
               <div className="absolute inset-0 bg-background/95 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-center p-8 z-20">
-                <h3 className="text-xl font-light mb-3 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                <h3 className="text-xl font-light mb-3 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 text-white">
                   {project.title}
                 </h3>
-                <p className="text-sm text-muted-foreground font-light leading-relaxed translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-75">
+                <p className="text-sm text-gray-200 sm:text-muted-foreground font-light leading-relaxed translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-75">
                   {project.description}
                 </p>
                 <div className="flex gap-2 mt-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-100">
@@ -375,10 +375,10 @@ const PortfolioSection = () => {
               </div>
 
               <div className="p-6 group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg font-light">{project.title}</h3>
+                <h3 className="text-lg font-light text-white">{project.title}</h3>
                 <div className="flex gap-2 mt-2">
                   {project.tags.slice(0, 2).map((tag) => (
-                    <span key={tag} className="text-xs text-muted-foreground">
+                    <span key={tag} className="text-xs text-gray-300 sm:text-muted-foreground">
                       {tag}
                     </span>
                   ))}
@@ -398,12 +398,12 @@ const ContactSection = () => {
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12 sm:py-20">
       <div className="max-w-2xl w-full">
         <div className="mb-12 sm:mb-16 text-center">
-          <span className="text-sm tracking-[0.3em] text-muted-foreground uppercase">Get in Touch</span>
-          <h2 className="text-3xl md:text-4xl font-extralight mt-2">Contact Me</h2>
+          <span className="text-sm tracking-[0.3em] text-gray-300 sm:text-muted-foreground uppercase">Get in Touch</span>
+          <h2 className="text-3xl md:text-4xl font-extralight mt-2 text-white">Contact Me</h2>
           <div className="w-16 h-px bg-primary/50 mx-auto mt-6" />
         </div>
 
-        <p className="text-center text-muted-foreground font-light leading-relaxed mb-12 max-w-md mx-auto">
+        <p className="text-center text-gray-200 sm:text-muted-foreground font-light leading-relaxed mb-12 max-w-md mx-auto">
           Im always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
         </p>
 
@@ -434,8 +434,8 @@ const ContactSection = () => {
               <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-primary/70 group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
             </div>
             <div className="text-center relative z-10">
-              <p className="text-sm sm:text-base font-light tracking-wide group-hover:text-primary group-hover:font-normal transition-all duration-300">LinkedIn</p>
-              <p className="text-xs sm:text-sm text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors">Lance Skyler Cao</p>
+              <p className="text-sm sm:text-base font-light tracking-wide text-white group-hover:text-primary group-hover:font-normal transition-all duration-300">LinkedIn</p>
+              <p className="text-xs sm:text-sm text-gray-300 sm:text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors">Lance Skyler Cao</p>
             </div>
           </a>
 
@@ -465,8 +465,8 @@ const ContactSection = () => {
               <Github className="w-5 h-5 sm:w-6 sm:h-6 text-primary/70 group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
             </div>
             <div className="text-center relative z-10">
-              <p className="text-sm sm:text-base font-light tracking-wide group-hover:text-primary group-hover:font-normal transition-all duration-300">GitHub</p>
-              <p className="text-xs sm:text-sm text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors">View my projects</p>
+              <p className="text-sm sm:text-base font-light tracking-wide text-white group-hover:text-primary group-hover:font-normal transition-all duration-300">GitHub</p>
+              <p className="text-xs sm:text-sm text-gray-300 sm:text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors">View my projects</p>
             </div>
           </a>
 
@@ -494,8 +494,8 @@ const ContactSection = () => {
               <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-primary/70 group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
             </div>
             <div className="text-center relative z-10">
-              <p className="text-sm sm:text-base font-light tracking-wide group-hover:text-primary group-hover:font-normal transition-all duration-300">Email</p>
-              <p className="text-xs sm:text-sm text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors break-all">lanceskylercao@gmail.com</p>
+              <p className="text-sm sm:text-base font-light tracking-wide text-white group-hover:text-primary group-hover:font-normal transition-all duration-300">Email</p>
+              <p className="text-xs sm:text-sm text-gray-300 sm:text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors break-all">lanceskylercao@gmail.com</p>
             </div>
           </a>
         </div>
@@ -529,8 +529,8 @@ const ContactSection = () => {
               <Figma className="w-5 h-5 sm:w-6 sm:h-6 text-primary/70 group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
             </div>
             <div className="text-center relative z-10">
-              <p className="text-sm sm:text-base font-light tracking-wide group-hover:text-primary group-hover:font-normal transition-all duration-300">Figma Portfolio</p>
-              <p className="text-xs sm:text-sm text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors">View my designs</p>
+              <p className="text-sm sm:text-base font-light tracking-wide text-white group-hover:text-primary group-hover:font-normal transition-all duration-300">Figma Portfolio</p>
+              <p className="text-xs sm:text-sm text-gray-300 sm:text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors">View my designs</p>
             </div>
           </a>
 
@@ -560,8 +560,8 @@ const ContactSection = () => {
               <FileDown className="w-5 h-5 sm:w-6 sm:h-6 text-primary/70 group-hover:text-primary group-hover:scale-110 transition-all duration-300" />
             </div>
             <div className="text-center relative z-10">
-              <p className="text-sm sm:text-base font-light tracking-wide group-hover:text-primary group-hover:font-normal transition-all duration-300">Download CV</p>
-              <p className="text-xs sm:text-sm text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors">Get my resume</p>
+              <p className="text-sm sm:text-base font-light tracking-wide text-white group-hover:text-primary group-hover:font-normal transition-all duration-300">Download CV</p>
+              <p className="text-xs sm:text-sm text-gray-300 sm:text-muted-foreground/70 mt-1 group-hover:text-muted-foreground transition-colors">Get my resume</p>
             </div>
           </a>
         </div>
@@ -633,7 +633,7 @@ const Home = () => {
       </div>
 
       <footer className="py-12 text-center border-t border-border/20">
-        <p className="text-sm text-muted-foreground font-light tracking-wider">
+        <p className="text-sm text-gray-300 sm:text-muted-foreground font-light tracking-wider">
           © 2025 Lance Skyler Cao.
         </p>
       </footer>
